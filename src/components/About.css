@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent unwanted scrolling */
+    font-family: Arial, sans-serif;
+}
+
+.about {
+    background-color: rgb(204, 204, 178); /* Mixed color */
+    color: black;
+    text-align: left; /* Align text to the left */
+    padding: 60px 300px;
+    margin: 0 auto; /* Center the content horizontally */
+    box-sizing: border-box; /* Ensure padding does not increase element width */
+    max-width: 100vw; /* Ensure the section fits within the viewport */
+    overflow: hidden; /* Prevent unwanted scrolling */
+}
+
+.general, .details, .other {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    font-weight: bold;
+}
